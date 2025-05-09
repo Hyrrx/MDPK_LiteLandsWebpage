@@ -1,0 +1,190 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.modpack-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.description {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #ddd;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buttons a:hover {
+    background-color: #777;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.download-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.download-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.platform-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.platform-link img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.curseforge {
+    background-color: #f16622;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.modrinth {
+    background-color: #178047;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.wiki-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wiki-header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.wiki-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.wiki-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.wiki-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.wiki-main {
+    display: flex;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.wiki-sidebar {
+    width: 200px;
+    padding-right: 20px;
+    border-right: 1px solid #eee;
+}
+
+.wiki-sidebar h3 {
+    margin-top: 0;
+}
+
+.wiki-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wiki-sidebar li {
+    margin-bottom: 5px;
+}
+
+.wiki-sidebar a {
+    text-decoration: none;
+    color: #555;
+}
+
+.wiki-content {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.wiki-content h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.wiki-footer {
+    background-color: #f8f8f8;
+    color: #555;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #eee;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #777;
+}
